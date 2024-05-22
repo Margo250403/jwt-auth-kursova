@@ -1,0 +1,82 @@
+/* LoginForm.scss */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+    &-content {
+        padding-top: 65px;
+        padding-bottom: 102px;
+        max-width: 431px;
+        align-self: center;
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 1.5;
+        color: #000000;
+        display: block;
+        margin-bottom: 22px;
+    }
+
+    &-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000000;
+        margin-bottom: 15px;
+
+        &:last-of-type {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.promo {
+    display: flex;
+    background-color: #000842;
+    border-radius: 15px;
+
+    &-box{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    &__content {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+    &__image {
+      width: 100%;
+      max-width: 559px;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 40px auto;
+      }
+}

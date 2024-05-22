@@ -1,0 +1,69 @@
+/* App.scss */
+
+.app-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-block {
+    max-width: 100%;
+}
+
+.home__image {
+    width: 100%;
+}
+
+.right-block {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.message-box {
+    border: 2px solid #0c21c1;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.message-box__title {
+    color: #0c21c1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.box-users {
+    border: 2px solid #0c21c1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-email{
+    width: 240px;
+}
+.btn-update{
+    padding: 12px 20px;
+    margin-right: 15px;
+    
+}
+.btn-delete{
+    padding: 12px 20px;
+}
+
+.btn-get{
+    padding: 15px 240px;
+
+}
+.btn-exit{
+    padding: 15px 308px;
+    margin-bottom: 20px;
+}
